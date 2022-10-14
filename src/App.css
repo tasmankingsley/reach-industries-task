@@ -63,11 +63,11 @@ video {
   margin: auto;
   grid-auto-flow: row;
   grid-template-areas: 
+                        'frame color'
                         'avgR color'
                         'avgG color'
                         'avgB color'
-                        'hist color'
-                        'frame color';
+                        'hist color';
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 1fr 1fr;
   align-items: center;
